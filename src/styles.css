@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+button {
+  padding: 20px;
+  background: transparent;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  font-weight: bold;
+  font-size: 1.3em;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.input {
+  width: 200px;
+  margin: 5px;
+}
+
+table {
+  color: #ffffff;
+}
+
+thead {
+  border: 1px solid #ffffff;
+}
+
+th {
+  padding: 15px;
+  border: 1px solid;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+#winnerdiv {
+  background-color: #ffffff;
+  color: cornflowerblue;
+  padding: 20px;
+  width: 60%;
+  border-radius: 5px;
+  margin-top: 20px;
+}

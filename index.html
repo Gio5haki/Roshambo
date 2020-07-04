@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <h1 style="color: white">Welcome to RPS</h1>
+    <input
+      id="input1"
+      type="text"
+      class="form-control input"
+      placeholder="Player1 Name"
+    />
+    <input
+      id="input2"
+      type="text"
+      class="form-control input"
+      placeholder="Player2 Name"
+    />
+    <button id="start">Press to launch to Play</button>
+    <div
+      style=" margin-top: 10px;display: flex; flex-direction: column; justify-content: center; align-items: center"
+    >
+      <h2 style="color: white">Scores</h2>
+      <table id="table">
+        <thead>
+          <th>Round</th>
+          <th>Player 1 Move</th>
+          <th>Player 2 Move</th>
+          <th>Winner</th>
+        </thead>
+        <tr id="emptyrow"></tr>
+      </table>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
